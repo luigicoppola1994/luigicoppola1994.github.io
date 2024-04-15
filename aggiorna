@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        .card {
+            width: 300px;
+            height: 780px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            background: white;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons img {
+            width: 30px;
+            margin: 0 5px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body bgcolor="ADD8E6" style="align-items: center;">
+
+
+<div class="card">
+    <div class="circle-image">
+        <!-- Immagine a forma di cerchio -->
+        <img src="https://www.luigicoppola.it/assets/img/profile-img.jpg" alt="Immagine Profilo" style="width: 100px; border-radius: 50%;">
+    </div>
+    <h2>Luigi Coppola</h2>
+    <div class="social-icons">
+        <!-- Icone dei social -->
+        <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/facebook_official_logo_icon_169181.png" alt="Facebook">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1024px-Instagram-Icon.png" alt="Instragram">
+        <img src="https://www.rawmaster.it/wp-content/uploads/2017/02/linkedin.png" alt="Instagram">
+    </div>
+
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24142.09948350949!2d14.139627982841128!3d40.85513931780349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b0f16f339a78b%3A0xb77f4364bc9b712a!2sPianura%2C%2080126%20Napoli%20NA!5e0!3m2!1sit!2sit!4v1713192132059!5m2!1sit!2sit" width="100%" height="50" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <table>
+        <th colspan="2">Competenze</th>
+            
+        
+        <tr>
+            <td>
+                Linguaggi Web:
+            </td>
+            <td><ul>
+                <li>Java</li>
+                <li>Java</li>
+                <li>Java</li>
+                <li>Java</li>
+            </ul></td>
+
+        </tr>
+
+        <tr>
+            <td>
+                Linguaggi Web:
+            </td>
+            <td><ul>
+                <li>Java</li>
+                <li>Java</li>
+                <li>Java</li>
+                <li>Java</li>
+            </ul></td>
+
+        </tr>
+
+
+        
+    </table>
+
+<br>
+    <form action="mailto:coppgigi@gmail.com" method="post" enctype="text/plain">
+       
+        <label>Oggetto: </label>
+        <input type="text">
+        <br>
+        
+        <label>Messaggio</label>
+        <textarea name=“message”></textarea>
+        <input type="submit" value="INVIA">
+        <br>
+
+    </form>
+
+</div>
+
+</body>
+</html>
+
+
