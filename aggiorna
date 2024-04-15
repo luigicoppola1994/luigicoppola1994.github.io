@@ -3,109 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card</title>
+    <title>Profilo di Luigi Coppola</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
         .card {
-            width: 300px;
-            height: 780px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            padding: 20px;
+            width: 80%;
+            max-width: 400px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 20px;
+	    margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .profile-header {
             text-align: center;
-            background: white;
+            margin-bottom: 20px;
+        }
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .profile-header h2 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #333;
         }
         .social-icons {
             margin-top: 10px;
         }
         .social-icons img {
             width: 30px;
+            height: 30px;
             margin: 0 5px;
         }
         table {
             width: 100%;
             margin-top: 20px;
-            
-        }
-        table, th, td {
-            border: 1px solid #ccc;
-            border-collapse: collapse;
         }
         th, td {
             padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
-<body bgcolor="ADD8E6" style="align-items: center;">
-
+<body>
 
 <div class="card">
-    <div class="circle-image">
-        <!-- Immagine a forma di cerchio -->
-        <img src="https://www.luigicoppola.it/assets/img/profile-img.jpg" alt="Immagine Profilo" style="width: 100px; border-radius: 50%;">
-    </div>
-    <h2>Luigi Coppola</h2>
-    <div class="social-icons">
-        <!-- Icone dei social -->
-        <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/facebook_official_logo_icon_169181.png" alt="Facebook">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1024px-Instagram-Icon.png" alt="Instragram">
-        <img src="https://www.rawmaster.it/wp-content/uploads/2017/02/linkedin.png" alt="Instagram">
-    </div>
+    <div class="profile-header">
+        <div class="profile-image">
+            <img src="https://www.luigicoppola.it/assets/img/profile-img.jpg" alt="Immagine Profilo">
+        </div>
+        <h2>Luigi Coppola</h2>
+        <div class="social-icons">
+    <a href="url_del_profilo_facebook" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/facebook_official_logo_icon_169181.png" alt="Facebook"></a>
+    <a href="url_del_profilo_instagram" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1024px-Instagram-Icon.png" alt="Instagram"></a>
+    <a href="url_del_profilo_linkedin" target="_blank"><img src="https://www.rawmaster.it/wp-content/uploads/2017/02/linkedin.png" alt="LinkedIn"></a>
+</div>
 
-    
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24142.09948350949!2d14.139627982841128!3d40.85513931780349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b0f16f339a78b%3A0xb77f4364bc9b712a!2sPianura%2C%2080126%20Napoli%20NA!5e0!3m2!1sit!2sit!4v1713192132059!5m2!1sit!2sit" width="100%" height="50" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24142.09948350949!2d14.139627982841128!3d40.85513931780349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b0f16f339a78b%3A0xb77f4364bc9b712a!2sPianura%2C%2080126%20Napoli%20NA!5e0!3m2!1sit!2sit!4v1713192132059!5m2!1sit!2sit" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <table>
-        <th colspan="2">Competenze</th>
-            
-        
         <tr>
-            <td>
-                Linguaggi Web:
-            </td>
-            <td><ul>
-                <li>Java</li>
-                <li>Java</li>
-                <li>Java</li>
-                <li>Java</li>
-            </ul></td>
-
+            <th colspan="2">Competenze</th>
         </tr>
-
         <tr>
+            <td>Linguaggi Web:</td>
             <td>
-                Linguaggi Web:
+                <ul>
+                    <li><a href="link_al_pdf_linguaggi_web.pdf" target="_blank">HTML</a></li>
+                    <li><a href="link_al_pdf_linguaggi_web.pdf" target="_blank">CSS</a></li>
+                    <li><a href="link_al_pdf_linguaggi_web.pdf" target="_blank">JavaScript</a></li>
+                    <li><a href="link_al_pdf_linguaggi_web.pdf" target="_blank">Angular</a></li>
+                </ul>
             </td>
-            <td><ul>
-                <li>Java</li>
-                <li>Java</li>
-                <li>Java</li>
-                <li>Java</li>
-            </ul></td>
-
         </tr>
-
-
-        
     </table>
 
-<br>
     <form action="mailto:coppgigi@gmail.com" method="post" enctype="text/plain">
-       
-        <label>Oggetto: </label>
-        <input type="text">
-        <br>
+        <label for="oggetto">Oggetto:</label>
+        <input type="text" id="oggetto" name="oggetto">
         
-        <label>Messaggio</label>
-        <textarea name=“message”></textarea>
+        <label for="messaggio">Messaggio:</label>
+        <textarea id="messaggio" name="messaggio"></textarea>
+        
         <input type="submit" value="INVIA">
-        <br>
-
     </form>
-
 </div>
 
 </body>
 </html>
-
-
